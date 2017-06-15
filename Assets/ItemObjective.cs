@@ -18,6 +18,5 @@ public class ItemObjective : Objective {
 	{
 		Debug.Log("Key Pickup!!");
 		Destroy (this.gameObject);
-		this.status = "Done";
 	}
 }
